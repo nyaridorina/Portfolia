@@ -1,0 +1,120 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.floating-item {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  cursor: pointer;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transition: transform 0.3s;
+}
+
+.floating-item:hover {
+  transform: scale(1.1);
+}
+
+.floating-item svg {
+  width: 100%;
+  height: 100%;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.floating-item:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .floating-item {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+
+/* Optional: Specific Styles for Each Cloud (if needed) */
+.colorify-cloud {
+  /* Additional styles for Colorify Cloud */
+}
+
+.easyconvert-cloud {
+  /* Additional styles for EasyConvert Cloud */
+}
+
+.pixella-cloud {
+  /* Additional styles for Pixella Cloud */
+}
+
+.groupay-cloud {
+  /* Additional styles for Groupay Cloud */
+}
+
+.img2txt-cloud {
+  /* Additional styles for Img2Txt Cloud */
+}
