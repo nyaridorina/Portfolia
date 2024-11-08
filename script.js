@@ -1,3 +1,5 @@
+// script.js
+
 document.addEventListener('DOMContentLoaded', () => {
   const floatingItems = document.querySelectorAll('.floating-item');
 
@@ -14,6 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     item.addEventListener('click', () => {
       const link = item.getAttribute('data-link');
       window.open(link, '_blank');
+    });
+
+    // Keyboard accessibility: Enter and Space keys trigger click
+    item.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        const link = item.getAttribute('data-link');
+        window.open(link, '_blank');
+      }
     });
   });
 });
