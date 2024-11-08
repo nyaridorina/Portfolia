@@ -1,4 +1,3 @@
-<!-- Groupay Cloud SVG -->
 <svg
   class="animated-cloud groupay-cloud"
   width="150"
@@ -6,36 +5,21 @@
   viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <defs>
-    <!-- Gradient for Pastel Green -->
-    <linearGradient id="gradient-groupay" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#98FB98" />
-      <stop offset="100%" stop-color="#C1FFC1" />
-    </linearGradient>
-  </defs>
   <g>
-    <!-- Main Cloud Body -->
     <path
-      d="M18 34c-2.209 0-4-1.791-4-4s1.791-4 4-4h2a6 6 0 1 1 0 12h-2zm28 0c-2.209 0-4-1.791-4-4s1.791-4 4-4h2a6 6 0 1 1 0 12h-2z"
-      fill="url(#gradient-groupay)"
-      stroke="#32CD32"
+      d="M20 40h24a10 10 0 1 0-2-20 14 14 0 1 0-22 14h2a8 8 0 1 0 8 8z"
+      fill="#4CAF50"
+      stroke="#1B5E20"
       stroke-width="2"
     />
-    <!-- Bottom Curve of the Cloud -->
+    <!-- Adding leaves to symbolize growth -->
     <path
-      d="M24 24a12 12 0 0 0-11.313 16H6a12 12 0 0 0 0 24h40a12 12 0 0 0 0-24h-6.687A12 12 0 0 0 40 24H24z"
-      fill="#E0FFE0"
-      stroke="#32CD32"
-      stroke-width="2"
-    />
-    <!-- Decorative Leaves -->
-    <path
-      d="M28 20l-3-5h6z"
-      fill="#98FB98"
+      d="M30 20l-2-4h4z"
+      fill="#81C784"
     />
     <path
-      d="M36 22l-4-3h8z"
-      fill="#98FB98"
+      d="M34 22l-3-2h6z"
+      fill="#81C784"
     />
   </g>
 </svg>
