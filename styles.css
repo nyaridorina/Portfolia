@@ -57,10 +57,13 @@ header.test-header p {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   transition: transform 0.3s;
+  outline: none; /* Remove default outline */
 }
 
-.floating-item:hover {
+.floating-item:hover,
+.floating-item:focus {
   transform: scale(1.1);
+  outline: 2px solid #FFD700; /* Gold outline on focus */
 }
 
 .floating-item svg {
@@ -85,7 +88,8 @@ header.test-header p {
   z-index: 1;
 }
 
-.floating-item:hover .tooltip {
+.floating-item:hover .tooltip,
+.floating-item:focus .tooltip {
   visibility: visible;
   opacity: 1;
 }
