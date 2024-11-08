@@ -6,11 +6,20 @@
   viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg"
 >
+  <defs>
+    <!-- Gradient for Pastel Blue -->
+    <linearGradient id="gradient-easyconvert" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ADD8E6" />
+      <stop offset="100%" stop-color="#B0E0E6" />
+    </linearGradient>
+  </defs>
   <g>
-    <ellipse cx="32" cy="30" rx="20" ry="12" fill="#ADD8E6" /> <!-- Pastel Blue -->
+    <!-- Main Cloud Body -->
+    <ellipse cx="32" cy="30" rx="20" ry="12" fill="url(#gradient-easyconvert)" stroke="#4682B4" stroke-width="2" />
+    <!-- Bottom Curve of the Cloud -->
     <path
-      d="M20 30c-4.418 0-8 3.582-8 8s3.582 8 8 8h24c4.418 0 8-3.582 8-8s-3.582-8-8-8H20z"
-      fill="#B0E0E6" <!-- Light Pastel Blue -->
+      d="M20 30c-5 0-10 3.582-10 8s5 8 10 8h24c5 0 10-3.582 10-8s-5-8-10-8H20z"
+      fill="#E0FFFF"
       stroke="#4682B4"
       stroke-width="2"
     />
