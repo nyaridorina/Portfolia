@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  font-family: Arial, sans-serif;
+  font-family: Calibri;
 }
 
 header.test-header {
@@ -20,7 +20,7 @@ header.test-header {
   top: 20px;
   width: 100%;
   text-align: center;
-  color: gray;
+  color: white;
 }
 
 header.test-header h1 {
