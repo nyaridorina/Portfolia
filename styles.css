@@ -20,7 +20,7 @@ header.test-header {
   top: 20px;
   width: 100%;
   text-align: center;
-  color: #333; /* Darker text for better contrast */
+  color: gray;
 }
 
 header.test-header h1 {
