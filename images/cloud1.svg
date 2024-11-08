@@ -6,16 +6,25 @@
   viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg"
 >
+  <defs>
+    <!-- Gradient for Pastel Pink -->
+    <linearGradient id="gradient-colorify" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFB3BA" />
+      <stop offset="100%" stop-color="#FFDFDF" />
+    </linearGradient>
+  </defs>
   <g>
+    <!-- Main Cloud Body -->
     <path
-      d="M18 36c-3.314 0-6-2.686-6-6 0-3.314 2.686-6 6-6h2a6 6 0 1 1 0 12h-2zm28 0c-3.314 0-6-2.686-6-6 0-3.314 2.686-6 6-6h2a6 6 0 1 1 0 12h-2z"
-      fill="#FFB3BA" <!-- Pastel Pink -->
+      d="M20 36c-4.418 0-8-3.582-8-8s3.582-8 8-8h2a6 6 0 1 1 0 12h-2zm24 0c-4.418 0-8-3.582-8-8s3.582-8 8-8h2a6 6 0 1 1 0 12h-2z"
+      fill="url(#gradient-colorify)"
       stroke="#FF6F61"
       stroke-width="2"
     />
+    <!-- Top Curve of the Cloud -->
     <path
-      d="M24 24a8 8 0 0 0-7.746 5.333A9.986 9.986 0 0 0 8 36h40a10 10 0 0 0-9.254-10.667A8 8 0 0 0 40 24H24z"
-      fill="#FFDFDF" <!-- Light Pastel Pink -->
+      d="M24 24a10 10 0 0 0-9.9 9H6a10 10 0 0 0 0 20h40a10 10 0 0 0 0-20h-6.687A10 10 0 0 0 40 24H24z"
+      fill="#FFE5E5"
       stroke="#FF6F61"
       stroke-width="2"
     />
