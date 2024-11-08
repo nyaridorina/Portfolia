@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Reset default browser styles */
 * {
   margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-color: #ADD8E6; /* Light Blue */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,6 +17,25 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header.test-header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  color: #333; /* Darker text for better contrast */
+}
+
+header.test-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header.test-header p {
+  font-size: 1.2em;
+  color: #555; /* Slightly lighter color for subtitle */
+}
+
+/* Container Styling */
 .container {
   position: relative;
   width: 80%;
@@ -25,6 +46,7 @@ body {
   align-items: center;
 }
 
+/* Floating Items */
 .floating-item {
   position: relative;
   width: 150px;
@@ -87,6 +109,14 @@ body {
     width: 120px;
     height: 120px;
     margin: 15px;
+  }
+
+  header.test-header h1 {
+    font-size: 2em;
+  }
+
+  header.test-header p {
+    font-size: 1em;
   }
 }
 
