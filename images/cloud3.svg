@@ -1,0 +1,20 @@
+<svg
+  class="animated-cloud pixella-cloud"
+  width="150"
+  height="150"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g>
+    <path
+      d="M20 40h24a10 10 0 1 0-2-20 14 14 0 1 0-22 14h2a8 8 0 1 0 8 8z"
+      fill="#9C27B0"
+      stroke="#6A1B9A"
+      stroke-width="2"
+    />
+    <!-- Adding small stars to symbolize creativity -->
+    <circle cx="30" cy="25" r="2" fill="#FFC107" />
+    <circle cx="35" cy="30" r="1.5" fill="#FFC107" />
+    <circle cx="25" cy="28" r="1.5" fill="#FFC107" />
+  </g>
+</svg>
