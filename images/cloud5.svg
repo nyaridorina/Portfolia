@@ -1,0 +1,20 @@
+<svg
+  class="animated-cloud img2txt-cloud"
+  width="150"
+  height="150"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g>
+    <path
+      d="M20 40h24a10 10 0 1 0-2-20 14 14 0 1 0-22 14h2a8 8 0 1 0 8 8z"
+      fill="#B0BEC5"
+      stroke="#37474F"
+      stroke-width="2"
+    />
+    <!-- Adding text lines to represent text conversion -->
+    <line x1="22" y1="28" x2="42" y2="28" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="22" y1="32" x2="42" y2="32" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="22" y1="36" x2="42" y2="36" stroke="#FFFFFF" stroke-width="2" />
+  </g>
+</svg>
