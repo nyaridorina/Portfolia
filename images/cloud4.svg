@@ -1,0 +1,25 @@
+<svg
+  class="animated-cloud groupay-cloud"
+  width="150"
+  height="150"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g>
+    <path
+      d="M20 40h24a10 10 0 1 0-2-20 14 14 0 1 0-22 14h2a8 8 0 1 0 8 8z"
+      fill="#4CAF50"
+      stroke="#1B5E20"
+      stroke-width="2"
+    />
+    <!-- Adding leaves to symbolize growth -->
+    <path
+      d="M30 20l-2-4h4z"
+      fill="#81C784"
+    />
+    <path
+      d="M34 22l-3-2h6z"
+      fill="#81C784"
+    />
+  </g>
+</svg>
