@@ -1,23 +1,6 @@
-<svg
-  class="animated-cloud colorify-cloud"
-  width="150"
-  height="150"
-  viewBox="0 0 64 64"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <g>
-    <path
-      d="M20 40h24a10 10 0 1 0-2-20 14 14 0 1 0-22 14h2a8 8 0 1 0 8 8z"
-      fill="url(#gradient-colorify)"
-      stroke="#FF4081"
-      stroke-width="2"
-    />
-    <defs>
-      <linearGradient id="gradient-colorify" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#FF5733;stop-opacity:1" />
-        <stop offset="50%" style="stop-color:#FFC300;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#DAF7A6;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-  </g>
+<svg width="250" height="100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="30" fill="#ffffff" />
+  <circle cx="100" cy="60" r="35" fill="#ffffff" />
+  <circle cx="140" cy="60" r="30" fill="#ffffff" />
+  <circle cx="100" cy="50" r="40" fill="#ffffff" />
 </svg>
